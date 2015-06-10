@@ -1,45 +1,53 @@
-h1 {
-	font-family: 'atrament-web', sans-serif;
+h1, h2, h3, h4 {
+	font-family: "pt-sans-narrow", Helvetica, arial, sans-serif;
 }
 
-.container {
-	width: 64em;
-	margin: 0 auto;
-	text-align: center;
-	position: relative;
+.navbar {
+	background: #fff;
+	border: none;
 }
 
-.title {
-	font-size: 5em;
-	height: 8em;
-	width: 8em;
-	line-height: 8em;
-	margin: 15vh auto;
-
-	font-variant: small-caps;
-	text-shadow: 2px 2px 0px #fff;
-
-	color: #333;
-
-	border-radius: 50%;
-	border: 3px dotted #fff;
-
-	background: url(martini.jpg) no-repeat center center;
-}
-
-.coming-soon {
-	position: absolute;
-	top: 11.3em;
-	font-family: 'caflisch-script-pro';
+.navbar-brand {
+	font-family: "atrament-web", sans-serif;
 	font-size: 2em;
-	font-weight: light;
-	color: #fff;
-	margin-left: 3em;
-
-	text-shadow: 1px 1px 0px #333;
 }
 
-.emailus {
-	margin-top: -20px;
-	font-size: .9em;
+.jumbotron {
+	margin-top: 50px;
+	height: 30em;
+
+	background-image: url(images/header.jpg);
+	background-position: center center;
+	background-size: 100vw;
+}
+
+.intro {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 3em;
+
+	color: #eee;
+}
+
+.introduction h4 {
+	line-height: 1.5em;
+}
+
+.section-heading {
+	text-align: center;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.footer {
+	background: #333;
+	color: #eee;
+	/*padding: 1em 0;*/
+}
+
+.footer p {
+	padding: 1em 0;
+	margin-bottom: 0;
 }
