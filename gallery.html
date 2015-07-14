@@ -118,12 +118,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+  <script src="scripts/imagesloaded.pkgd.min.js"></script>
   <script src="scripts/lightbox.js"></script>
   <script>
     var grid = document.querySelector('.grid');
-    var msnry = new Masonry(grid, {
-      itemSelector: '.grid-item',
-      columnWidth: '.grid-item'
+    imagesLoaded(grid, function(e) {
+      var msnry = new Masonry(grid, {
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item'
+      });
     });
   </script>
   </body>
